@@ -38,7 +38,7 @@ if ! [[ ${start} =~ ^[0-9]+$ ]] || ! [[ ${end} =~ ^[0-9]+$ ]]; then
 	usage
 fi
 
-for ((i = start; i <= end; i += increment)); do
+for i in $(seq ${start} ${increment} ${end}); do
 	num=$(printf "%0${padding}d" ${i})
 	echo ${pattern//\{\}/$num}
 done

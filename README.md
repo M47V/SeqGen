@@ -1,6 +1,17 @@
 # SeqGen
 Bash script to generate a sequence from a pattern and a range of numbers.
 
+## Installation
+To install the tool, use the provided install script.
+
+**Steps**:
+1. Open a terminal
+2. Run:
+```bash
+chmod +x install.sh
+./install.sh
+```
+
 ## Usage
 ```
 seqgen.sh [-i INCREMENT] [-p PADDING] <pattern> <start> <end>
@@ -13,4 +24,3 @@ seqgen.sh [-i INCREMENT] [-p PADDING] <pattern> <start> <end>
 **Options:**
 - `-i INCREMENT`: The increment for the sequence.
 - `-p PADDING`: The padding for the number.
-

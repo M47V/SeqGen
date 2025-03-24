@@ -14,7 +14,7 @@ chmod +x install.sh
 
 ## Usage
 ```
-seqgen.sh [-i INCREMENT] [-p PADDING] <pattern> <start> <end>
+seqgen [-i INCREMENT] [-p PADDING] <pattern> <start> <end>
 ```
 **Arguments:**
 - `pattern`: The pattern to be used to generate the sequence that must contain {} placeholders for the number.

@@ -14,7 +14,7 @@ chmod +x "${TARGET}/${APP_NAME}"
 
 # Check that the target path is in PATH
 if [[ ":$PATH:" != *":$TARGET:"* ]]; then
-    echo "Please add `$TARGET` to the PATH and reopen the terminal !"
+    echo "Please add \`$TARGET\` to the PATH and reopen the terminal !"
 fi
 
 echo "Installation complete."
